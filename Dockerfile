@@ -14,7 +14,7 @@ RUN apk add --no-cache \
     apk del curl
 
 # Setze den Entry Point auf sh
-ENTRYPOINT ["sh"]
+ENTRYPOINT ["/bin/bash"]
 
 # Setze den Standardbefehl auf --help
 CMD ["-c", "kubectl --help"]
