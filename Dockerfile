@@ -14,4 +14,4 @@ RUN apk add --no-cache \
     apk del curl
 
 # Setze den Entry Point auf sh
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/bin/sh", "-c"]
