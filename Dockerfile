@@ -15,6 +15,3 @@ RUN apk add --no-cache \
 
 # Setze den Entry Point auf sh
 ENTRYPOINT ["/bin/sh"]
-
-# Setze den Standardbefehl auf --help
-CMD ["-c", "kubectl --help"]
