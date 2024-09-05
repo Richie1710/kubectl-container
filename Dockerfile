@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # Setze Umgebungsvariablen
-ENV KUBECTL_VERSION=v1.21.0
+ENV KUBECTL_VERSION=v1.29.2
 
 # Installiere kubectl und bereinige zwischengespeicherte Daten
 RUN apk add --no-cache \
